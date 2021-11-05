@@ -1,6 +1,6 @@
 #!bin/bash
 
-echo $YELLOW"[$RED!$YELLOW] Eu vou instalar as dependências essenciais pro bot funcinar você só concorda com os programas que vou instalar blz? [s/n]"
+echo $YELLOW"[$RED!$YELLOW] Vamos a instalar los requerimientos para usar este script, escriba 's' si continua, de lo contrario escriba 'n' (sin las comillas)[s/n]"
 read inp
 if [ "$inp" = "s" ]; then
    	apt update python3 && pkg install python3

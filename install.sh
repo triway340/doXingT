@@ -3,7 +3,7 @@
 echo $YELLOW"[$RED!$YELLOW] Vamos a instalar los requerimientos para usar este script, escriba 's' si continua, de lo contrario escriba 'n' (sin las comillas)[s/n]"
 read inp
 if [ "$inp" = "s" ]; then
-   	apt install python && pkg install python
+   	pkg install python -y
    	pip install -r requirements.txt
     echo $GREEN"¡INSTALADO!"
 fi
